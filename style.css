@@ -1,0 +1,34 @@
+
+.portfolio__container .wrapper {
+  max-width: 1000px;
+  margin: 40px auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  box-shadow: 0 24px 24px 0 RGB(43 80 237 / 20%);
+  border-radius: 8px;
+}
+
+.img img {
+ width: 100%;
+ object-fit: cover;
+}
+
+.wrapper .details {
+  padding: 20px;
+  margin: 20px;
+  box-shadow: 0 24px 24px 0 RGB(43 80 237 / 20%);
+  background: teal;
+  border-radius: 8px;
+  color: #fff;
+  
+}
+
+.details .a {
+  display: flex;
+  align-items: center;
+}
+
+.details .a p {
+  color: #e3e3e3;
+  margin-right: 10px;
+}
