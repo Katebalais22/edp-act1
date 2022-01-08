@@ -1,4 +1,3 @@
-
 .gallery__container .container {
   max-width: 1000px;
   margin: 40px auto;
@@ -11,11 +10,10 @@
 }
 
 .container .img {
-box-shadow: 0 24px 24px 0 RGB(43 80 237 / 20%);
- 
+  box-shadow: 0 24px 24px 0 RGB(43 80 237 / 20%);
 }
 
 .container .img img {
   width: 100%;
- object-fit: cover;
+  object-fit: cover;
 }
