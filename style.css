@@ -1,4 +1,3 @@
-
 .portfolio__container .wrapper {
   max-width: 1000px;
   margin: 40px auto;
@@ -9,8 +8,8 @@
 }
 
 .img img {
- width: 100%;
- object-fit: cover;
+  width: 100%;
+  object-fit: cover;
 }
 
 .wrapper .details {
@@ -20,7 +19,6 @@
   background: teal;
   border-radius: 8px;
   color: #fff;
-  
 }
 
 .details .a {
@@ -31,4 +29,23 @@
 .details .a p {
   color: #e3e3e3;
   margin-right: 10px;
+}
+.gallery__container .container {
+  max-width: 1000px;
+  margin: 40px auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  box-shadow: 0 24px 24px 0 RGB(43 80 237 / 20%);
+  border-radius: 8px;
+  padding: 20px;
+  gap: 10px;
+}
+
+.container .img {
+  box-shadow: 0 24px 24px 0 RGB(43 80 237 / 20%);
+}
+
+.container .img img {
+  width: 100%;
+  object-fit: cover;
 }
